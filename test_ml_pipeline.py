@@ -51,7 +51,7 @@ class TestMLPipeline(unittest.TestCase):
 
         self.assertIn(
             int(prediction),
-            [0, 1]
+            [2]
         )
 
 
